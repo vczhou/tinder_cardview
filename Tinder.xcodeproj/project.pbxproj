@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		55E816821E95A1D500C89ABC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E816811E95A1D500C89ABC /* AppDelegate.swift */; };
+		55E816841E95A1D500C89ABC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E816831E95A1D500C89ABC /* ViewController.swift */; };
+		55E816871E95A1D500C89ABC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E816851E95A1D500C89ABC /* Main.storyboard */; };
+		55E816891E95A1D600C89ABC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55E816881E95A1D600C89ABC /* Assets.xcassets */; };
+		55E8168C1E95A1D600C89ABC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55E8168A1E95A1D600C89ABC /* LaunchScreen.storyboard */; };
+		55E816971E95A1D600C89ABC /* TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E816961E95A1D600C89ABC /* TinderTests.swift */; };
+		55E816A21E95A1D600C89ABC /* TinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55E816A11E95A1D600C89ABC /* TinderUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		55E816931E95A1D600C89ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E816761E95A1D500C89ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E8167D1E95A1D500C89ABC;
+			remoteInfo = Tinder;
+		};
+		55E8169E1E95A1D600C89ABC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 55E816761E95A1D500C89ABC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 55E8167D1E95A1D500C89ABC;
+			remoteInfo = Tinder;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		55E8167E1E95A1D500C89ABC /* Tinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E816811E95A1D500C89ABC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		55E816831E95A1D500C89ABC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		55E816861E95A1D500C89ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		55E816881E95A1D600C89ABC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		55E8168B1E95A1D600C89ABC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		55E8168D1E95A1D600C89ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E816921E95A1D600C89ABC /* TinderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E816961E95A1D600C89ABC /* TinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderTests.swift; sourceTree = "<group>"; };
+		55E816981E95A1D600C89ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55E8169D1E95A1D600C89ABC /* TinderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		55E816A11E95A1D600C89ABC /* TinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderUITests.swift; sourceTree = "<group>"; };
+		55E816A31E95A1D600C89ABC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		55E8167B1E95A1D500C89ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E8168F1E95A1D600C89ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E8169A1E95A1D600C89ABC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		55E816751E95A1D500C89ABC = {
+			isa = PBXGroup;
+			children = (
+				55E816801E95A1D500C89ABC /* Tinder */,
+				55E816951E95A1D600C89ABC /* TinderTests */,
+				55E816A01E95A1D600C89ABC /* TinderUITests */,
+				55E8167F1E95A1D500C89ABC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		55E8167F1E95A1D500C89ABC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				55E8167E1E95A1D500C89ABC /* Tinder.app */,
+				55E816921E95A1D600C89ABC /* TinderTests.xctest */,
+				55E8169D1E95A1D600C89ABC /* TinderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		55E816801E95A1D500C89ABC /* Tinder */ = {
+			isa = PBXGroup;
+			children = (
+				55E816811E95A1D500C89ABC /* AppDelegate.swift */,
+				55E816831E95A1D500C89ABC /* ViewController.swift */,
+				55E816851E95A1D500C89ABC /* Main.storyboard */,
+				55E816881E95A1D600C89ABC /* Assets.xcassets */,
+				55E8168A1E95A1D600C89ABC /* LaunchScreen.storyboard */,
+				55E8168D1E95A1D600C89ABC /* Info.plist */,
+			);
+			path = Tinder;
+			sourceTree = "<group>";
+		};
+		55E816951E95A1D600C89ABC /* TinderTests */ = {
+			isa = PBXGroup;
+			children = (
+				55E816961E95A1D600C89ABC /* TinderTests.swift */,
+				55E816981E95A1D600C89ABC /* Info.plist */,
+			);
+			path = TinderTests;
+			sourceTree = "<group>";
+		};
+		55E816A01E95A1D600C89ABC /* TinderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				55E816A11E95A1D600C89ABC /* TinderUITests.swift */,
+				55E816A31E95A1D600C89ABC /* Info.plist */,
+			);
+			path = TinderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		55E8167D1E95A1D500C89ABC /* Tinder */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E816A61E95A1D600C89ABC /* Build configuration list for PBXNativeTarget "Tinder" */;
+			buildPhases = (
+				55E8167A1E95A1D500C89ABC /* Sources */,
+				55E8167B1E95A1D500C89ABC /* Frameworks */,
+				55E8167C1E95A1D500C89ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Tinder;
+			productName = Tinder;
+			productReference = 55E8167E1E95A1D500C89ABC /* Tinder.app */;
+			productType = "com.apple.product-type.application";
+		};
+		55E816911E95A1D600C89ABC /* TinderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E816A91E95A1D600C89ABC /* Build configuration list for PBXNativeTarget "TinderTests" */;
+			buildPhases = (
+				55E8168E1E95A1D600C89ABC /* Sources */,
+				55E8168F1E95A1D600C89ABC /* Frameworks */,
+				55E816901E95A1D600C89ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E816941E95A1D600C89ABC /* PBXTargetDependency */,
+			);
+			name = TinderTests;
+			productName = TinderTests;
+			productReference = 55E816921E95A1D600C89ABC /* TinderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		55E8169C1E95A1D600C89ABC /* TinderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55E816AC1E95A1D600C89ABC /* Build configuration list for PBXNativeTarget "TinderUITests" */;
+			buildPhases = (
+				55E816991E95A1D600C89ABC /* Sources */,
+				55E8169A1E95A1D600C89ABC /* Frameworks */,
+				55E8169B1E95A1D600C89ABC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				55E8169F1E95A1D600C89ABC /* PBXTargetDependency */,
+			);
+			name = TinderUITests;
+			productName = TinderUITests;
+			productReference = 55E8169D1E95A1D600C89ABC /* TinderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		55E816761E95A1D500C89ABC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Victoria Zhou";
+				TargetAttributes = {
+					55E8167D1E95A1D500C89ABC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					55E816911E95A1D600C89ABC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55E8167D1E95A1D500C89ABC;
+					};
+					55E8169C1E95A1D600C89ABC = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 55E8167D1E95A1D500C89ABC;
+					};
+				};
+			};
+			buildConfigurationList = 55E816791E95A1D500C89ABC /* Build configuration list for PBXProject "Tinder" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 55E816751E95A1D500C89ABC;
+			productRefGroup = 55E8167F1E95A1D500C89ABC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				55E8167D1E95A1D500C89ABC /* Tinder */,
+				55E816911E95A1D600C89ABC /* TinderTests */,
+				55E8169C1E95A1D600C89ABC /* TinderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		55E8167C1E95A1D500C89ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E8168C1E95A1D600C89ABC /* LaunchScreen.storyboard in Resources */,
+				55E816891E95A1D600C89ABC /* Assets.xcassets in Resources */,
+				55E816871E95A1D500C89ABC /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E816901E95A1D600C89ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E8169B1E95A1D600C89ABC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		55E8167A1E95A1D500C89ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E816841E95A1D500C89ABC /* ViewController.swift in Sources */,
+				55E816821E95A1D500C89ABC /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E8168E1E95A1D600C89ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E816971E95A1D600C89ABC /* TinderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		55E816991E95A1D600C89ABC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E816A21E95A1D600C89ABC /* TinderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		55E816941E95A1D600C89ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E8167D1E95A1D500C89ABC /* Tinder */;
+			targetProxy = 55E816931E95A1D600C89ABC /* PBXContainerItemProxy */;
+		};
+		55E8169F1E95A1D600C89ABC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 55E8167D1E95A1D500C89ABC /* Tinder */;
+			targetProxy = 55E8169E1E95A1D600C89ABC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		55E816851E95A1D500C89ABC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E816861E95A1D500C89ABC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		55E8168A1E95A1D600C89ABC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				55E8168B1E95A1D600C89ABC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		55E816A41E95A1D600C89ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		55E816A51E95A1D600C89ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		55E816A71E95A1D600C89ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vczhou.Tinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		55E816A81E95A1D600C89ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Tinder/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vczhou.Tinder;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		55E816AA1E95A1D600C89ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vczhou.TinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tinder.app/Tinder";
+			};
+			name = Debug;
+		};
+		55E816AB1E95A1D600C89ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TinderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vczhou.TinderTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Tinder.app/Tinder";
+			};
+			name = Release;
+		};
+		55E816AD1E95A1D600C89ABC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vczhou.TinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tinder;
+			};
+			name = Debug;
+		};
+		55E816AE1E95A1D600C89ABC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = TinderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = vczhou.TinderUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Tinder;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		55E816791E95A1D500C89ABC /* Build configuration list for PBXProject "Tinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E816A41E95A1D600C89ABC /* Debug */,
+				55E816A51E95A1D600C89ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55E816A61E95A1D600C89ABC /* Build configuration list for PBXNativeTarget "Tinder" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E816A71E95A1D600C89ABC /* Debug */,
+				55E816A81E95A1D600C89ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55E816A91E95A1D600C89ABC /* Build configuration list for PBXNativeTarget "TinderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E816AA1E95A1D600C89ABC /* Debug */,
+				55E816AB1E95A1D600C89ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		55E816AC1E95A1D600C89ABC /* Build configuration list for PBXNativeTarget "TinderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				55E816AD1E95A1D600C89ABC /* Debug */,
+				55E816AE1E95A1D600C89ABC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 55E816761E95A1D500C89ABC /* Project object */;
+}
